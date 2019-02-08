@@ -1,39 +1,38 @@
 {
-  "name": "vue-multipane",
-  "description": "Resizable split panes for Vue.js.",
-  "version": "0.9.5",
-  "author": "Yan Sern <hey@yansern.io>",
-  "main": "dist/vue-multipane.js",
-  "unpkg": "dist/vue-multipane.min.js",
-  "module": "dist/vue-multipane.esm.js",
-  "scripts": {
-    "build": "yarn run build:prod && yarn run build:dev && yarn run build:esm && yarn run build:demo",
-    "build:prod": "cross-env rollup -c rollup.config.prod.js",
-    "build:dev": "cross-env rollup -c rollup.config.dev.js",
-    "build:esm": "cross-env rollup -c rollup.config.esm.js",
-    "build:demo": "cross-env NODE_ENV=production webpack --progress --hide-modules --env.entry=demo --config=node_modules/laravel-mix/setup/webpack.config.js",
-    "dev": "cross-env NODE_ENV=development webpack-dev-server --hot --inline --env.entry=demo --config=node_modules/laravel-mix/setup/webpack.config.js"
+  "_from": "vue-multipane",
+  "_id": "vue-multipane@0.9.5",
+  "_inBundle": false,
+  "_integrity": "sha512-4sr6POXY82VMzprQWGNMzTIBGGYEi7nG0uGQb6AYr8o0ngIsYCDPh/gmgms8NVsZzG28b7kn3tQhKP27cbbLdw==",
+  "_location": "/vue-multipane",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "vue-multipane",
+    "name": "vue-multipane",
+    "escapedName": "vue-multipane",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
   },
-  "license": "MIT",
-  "homepage": "https://github.com/yansern/vue-multipane/index.html",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/yansern/vue-multipane.git"
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/vue-multipane/-/vue-multipane-0.9.5.tgz",
+  "_shasum": "10ddaf9092e0a9e761edfd0d1f1db8bbb54b3e9c",
+  "_spec": "vue-multipane",
+  "_where": "E:\\Bloccoly\\Research\\vue-material-admin-master",
+  "author": {
+    "name": "Yan Sern",
+    "email": "hey@yansern.io"
   },
   "bugs": {
     "url": "https://github.com/yansern/vue-multipane/issues"
   },
-  "keywords": [
-    "vue",
-    "multipane",
-    "split pane",
-    "ui",
-    "resize",
-    "resizeable",
-    "layout",
-    "flexbox",
-    "components"
-  ],
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Resizable split panes for Vue.js.",
   "devDependencies": {
     "babel-env": "^2.4.1",
     "babel-eslint": "^7.2.3",
@@ -57,5 +56,35 @@
   },
   "engines": {
     "node": ">=6.0.0"
-  }
+  },
+  "homepage": "https://github.com/yansern/vue-multipane/index.html",
+  "keywords": [
+    "vue",
+    "multipane",
+    "split pane",
+    "ui",
+    "resize",
+    "resizeable",
+    "layout",
+    "flexbox",
+    "components"
+  ],
+  "license": "MIT",
+  "main": "dist/vue-multipane.js",
+  "module": "dist/vue-multipane.esm.js",
+  "name": "vue-multipane",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yansern/vue-multipane.git"
+  },
+  "scripts": {
+    "build": "yarn run build:prod && yarn run build:dev && yarn run build:esm && yarn run build:demo",
+    "build:demo": "cross-env NODE_ENV=production webpack --progress --hide-modules --env.entry=demo --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "build:dev": "cross-env rollup -c rollup.config.dev.js",
+    "build:esm": "cross-env rollup -c rollup.config.esm.js",
+    "build:prod": "cross-env rollup -c rollup.config.prod.js",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --hot --inline --env.entry=demo --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "unpkg": "dist/vue-multipane.min.js",
+  "version": "0.9.5"
 }
